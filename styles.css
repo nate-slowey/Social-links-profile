@@ -10,14 +10,32 @@ body{
 }
 .box{
     background: hsl(0, 0%, 12%);
-    height: 80%;
-    width: 25%;
-    position: absolute;
+    height: 70vh;
+    width: 45vh;
     text-align: center;
+    z-index: 95;
     
 }
+.container {
+    height: 35vh;
+    width: 20vw;
+    z-index: 99;
+    display: grid;
+    grid-template-columns: 20vw;
+    grid-template-rows: 20px 20px 20px 20px 20px;
+    margin: auto;
+    align-items: center;
+    gap: 2.5em;
+    
 
-
+}
+.container div{
+    background-color: hsl(0, 0%, 20%);
+    height: 35px;
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 10px;
+}
 
 
 img{
